@@ -1,9 +1,8 @@
-import app from 'apprun';
+import app from "apprun";
 
-import './components/header';
-import './components/home';
-import './components/new-movie';
+import "./containers/Home";
+import "./containers/AddMovie";
 
-app.on('#', (route, ...p) => {
-  app.run(`#/${route || ''}`, ...p);
-})
+app.on("#", (route, ...p) => {
+  app.run(`#/${route || ""}`, ...p);
+});
