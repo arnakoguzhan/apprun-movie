@@ -1,6 +1,6 @@
 import app from "apprun";
 
-const HeaderComponent = () => {
+const HeaderComponent = props => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,7 +39,8 @@ const HeaderComponent = () => {
               <input
                 className="form-control"
                 placeholder="Search"
-                aria-label="Search"
+                value={props.filterText}
+                onchange={props.handler}
                 type="text"
               />
             </form>
