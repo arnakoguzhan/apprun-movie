@@ -2,5 +2,6 @@
 
 AppRun demo application with basic node (express) backend.
 
-## Demo
+## Demo
+
 ![Screenshot](demo.png)
