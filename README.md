@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-To start backend app 
+To start backend app (You need to install MongoDB first)
 
 ```
 cd backend
